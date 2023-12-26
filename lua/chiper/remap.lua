@@ -1,6 +1,10 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>ex", "<cmd>Ex<CR>")
+
+--Plugin Related Mapping
 vim.keymap.set("n", "<C-n>", "<cmd>Neotree position=current<CR>")
+vim.keymap.set("n", "<leader>dc", "<cmd>CocDisable<CR>")
+vim.keymap.set("n", "<leader>ec", "<cmd>CocEnable<CR>")
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")

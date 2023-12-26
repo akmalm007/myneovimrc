@@ -102,7 +102,6 @@ local plugins = {
     {
         "j-hui/fidget.nvim",
         opts = {
-            -- options
         },
     },
     --Commenting in Visual mode or Normal mode
